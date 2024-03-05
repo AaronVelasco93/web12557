@@ -1,0 +1,18 @@
+@font-face {
+    font-family: FuenteAaron;
+    src: url(Fuentes/YoungMoney.otf);
+}
+
+
+@font-face {
+    font-family: Send_Box;
+    src: url(Fuentes/Send\ Box.otf);
+}
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(299deg, rgba(2,0,36,1) 0%, rgba(44,43,111,1) 16%, rgba(93,93,199,1) 35%, rgba(92,95,200,1) 39%, rgba(0,212,255,1) 100%);
+    background-size: 100%;
+    padding: 4em;
+    font-family: serif;
+}
