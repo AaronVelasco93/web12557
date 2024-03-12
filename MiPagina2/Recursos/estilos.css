@@ -1,0 +1,67 @@
+@font-face {
+    font-family: FuenteAaron;
+    src: url(Fuentes/YoungMoney.otf);
+}
+
+
+@font-face {
+    font-family: Send_Box;
+    src: url(Fuentes/Send\ Box.otf);
+}
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(299deg, rgba(2,0,36,1) 0%, rgba(44,43,111,1) 16%, rgba(93,93,199,1) 35%, rgba(92,95,200,1) 39%, rgba(0,212,255,1) 100%);
+    background-size: 100%;
+    padding: 4em;
+    font-family: serif;
+}
+
+.fondoblanco{
+    background-color: rgba(17, 70, 161, 0.557);
+
+}
+.bordeblanco{
+    border: 20px solid red;
+    border-radius: 15px;
+}
+
+.imagenEstilo{
+    width: 100px;
+    text-align: center;
+}
+
+.textoFooter{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top:1em;
+    padding-bottom: 1em;
+    border-radius: 5px 5px 0px 0px;
+
+}
+
+.parrafoFooter{
+   margin: 0px;
+   font-size: 20px;
+   font-family:'FuenteAaron' ;
+}
+.titulo{
+    font-family:'Send_Box';
+    font-size: 35px;
+}
+.subtitulo{
+    text-align:center;
+    font-family: 'FuenteAaron';
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+.imagenFondo{
+    background-image: url(media/45años.png);
+    padding: 15px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 6em;
+}
