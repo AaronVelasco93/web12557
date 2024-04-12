@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header class="Titulo" >
+        <h3>Registro en mi DB</h3>
+    </header>
+    <div class="Formulario" >
+        <form action="enviarRegistro.php" method="post">
+            <hr>
+            <div>
+                <label for="nombre_usuario">Ingresa nombre completo:</label>
+                <input type="text" name="nombre_usuario" required maxlength="100" placeholder="Ingresa tu Nombre">
+                <br><br>
+            </div>
+            <div>
+                <label for="carrera">Carrera Academica:</label>
+                <input type="text" name="carrera" placeholder="Ingresa tu carrera" required list="lista-institucion">
+                <datalist id="lista-institucion" >
+                    <option value="FES Aragon">Facutad de estudios Superiores Aragon</option>
+                    <option value="FES Zaragoza">Facutad de estudios Superiores Zaragoza</option>
+                    <option value="FES Acatlan">Facutad de estudios Superiores Acatlan</option>
+                    <option value="FES Iztacala">Facutad de estudios Superiores Iztacala</option>
+                    <option value="CU">Ciudad Universitaria</option>
+                </datalist>
+
+                <br><br>
+            </div>
+            <div>
+                <label for="no_cuenta">Numero de cuenta:</label>
+                <input type="number" name="no_cuenta" maxlength="9" required>
+                <br><br>
+            </div>
+            <div>
+                <label for="direccion">Ingresa tu Direccion:</label>
+                <input type="text" name="direccion" maxlength="255" readonly placeholder="Ingresa tu direccion">
+                <br><br>
+            </div>
+            <div>
+                <label for="telefono">Ingresa tu numero Telefonico</label>
+                <input type="number" name="telefono" placeholder="Celular"  maxlength="10">
+                <br><br>
+            </div>
+            <div>
+                <label for="email">Correo Electronico</label>
+                <input type="text" name="email" placeholder="Correo aragon" required maxlength="100" >
+                <br><br>
+            </div>
+            <div>
+                <label for="password">Contraseña</label>
+                <input type="password" name="password" maxlength="100" required >
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>
+
+<a href='index.html'>Nuevo registro</a>
